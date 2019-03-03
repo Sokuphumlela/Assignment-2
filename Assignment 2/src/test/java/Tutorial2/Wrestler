@@ -1,0 +1,28 @@
+package Tutorial2;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public abstract class Wrestler {
+
+       public static void main(String[] args){
+
+           int weights [] = {30, 54, 59, 56};
+           int rollNum[]  = new int[100];
+           rollNum[0] = 2020;
+
+           int sids[] = {45,65,46,74,37,47,45,46,56,54,53,52,52,34};
+           String names[] = {"C", "D", "S", "W"};
+           Arrays.sort(sids);
+           Arrays.sort(names);
+           for (int j: sids){
+               System.out.printLn(j);
+           }
+
+           for (String j : names){
+               System.out.println(j);
+           }
+
+       }
+}

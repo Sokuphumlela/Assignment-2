@@ -1,0 +1,20 @@
+package Tutorial2;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.TreeMap;
+
+public class TripleH{
+
+        public static void main(String[] args) {
+
+            HashMap hm = new HashMap();
+            hm.put("Name", "John");
+            hm.put("Age", "40");
+            hm.put("Weight", "180kg");
+
+            System.out.printLn(hm);
+
+        }
+
+}
